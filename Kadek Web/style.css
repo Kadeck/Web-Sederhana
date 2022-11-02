@@ -1,0 +1,109 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+
+.kontener-nav {
+    background-color: #28e70f;
+    width: 100%;
+    height: 15vh;
+
+}
+
+.ul-nav {
+    display: flex;
+    height: 100px;
+    justify-content: right;
+    align-items: center;  
+      
+}
+
+.li-nav {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+}
+
+.li-nav:hover {
+    background-color: #a4c0aa;
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-nav {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+.kontener-konten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.konten-home {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.konten-home th, .konten-home td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 20px  
+}
+
+.h1-conten-jadwal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jadwalkuliah-tabel {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.jadwalkuliah-tabel th, .jadwalkuliah-tabel td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid #828282;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px  
+}
+
+.kontener-foter {
+    background-color: #28e70f;
+    width: 100%;
+    height: 15vh;
+}
+
+.pfoter {
+    text-align: center;
+    color: #ffffff;
+}
